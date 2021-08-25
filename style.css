@@ -1,0 +1,96 @@
+a {
+	color: #0000FF;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+
+h1 {
+	color: #FF4444;
+	font-family: Arial;
+	font-size: 24;
+}
+
+
+.help {
+	background-color: #FFFF88;
+
+}
+
+
+hr {
+	height: 2px;
+	background-image: linear-gradient(to right, rgba(1, 0, 0, 0.75), rgba(1, 0, 0, 0));
+}
+
+
+.help:before {
+	content: url(help.png);
+}
+
+.error {
+	background-color: #FFDDDD;
+	color: #CC0000;
+}
+
+
+.code {
+	font-family: Courier New;
+	background-color: #CCCCCC;
+	padding: 4px 4px 4px 4px;
+	margin: 4px 4px 4px 4px;
+}
+
+
+.codetoinsert:after {
+	content: "...";
+	font-family: Arial;
+}
+
+.codetoinsert:before {
+	content: "...";
+	font-family: Arial;
+
+}
+
+.codetoinsert {
+	color: #888888;
+	background-color: #EEEEEE;
+}
+
+
+
+
+.cursor {
+	background-color: #CCCCCC;
+	border-style: solid;
+
+
+}
+
+
+.statecolumn {
+	width: 600px;
+	margin: 8px 8px 8px 8px;
+	padding: 8px 8px 8px 8px;
+
+}
+
+.state {
+	background-color: #CCCCFF;
+	padding: 4px 4px 4px 4px;
+	border-style: solid;
+
+
+}
+
+
+.tape {
+	font-family: Courier New;
+}
+
+
+.indentation {
+	background-color: #AAAAAA;
+}
